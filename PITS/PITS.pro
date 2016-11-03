@@ -1,4 +1,4 @@
-update=Di 01 Nov 2016 20:14:18 CET
+update=Mi 02 Nov 2016 01:30:49 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=radiometrix
 LibName31=hoperf
 LibName32=ublox
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
