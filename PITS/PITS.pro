@@ -1,4 +1,4 @@
-update=Mi 02 Nov 2016 01:30:49 CET
+update=Do 22 Dez 2016 19:52:14 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,6 +61,7 @@ LibName29=valves
 LibName30=radiometrix
 LibName31=hoperf
 LibName32=ublox
+LibName33=bosch
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
