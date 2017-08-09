@@ -191,7 +191,7 @@ L LED D3
 U 1 1 58198215
 P 1200 3700
 F 0 "D3" H 1200 3800 50  0000 C CNN
-F 1 "INTERNET_Green" H 1200 3600 50  0000 C CNN
+F 1 "Inet_Green" H 1200 3600 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 1200 3700 50  0001 C CNN
 F 3 "" H 1200 3700 50  0000 C CNN
 	1    1200 3700
@@ -362,15 +362,15 @@ F 3 "" H 900 4900 50  0000 C CNN
 	1    900  4900
 	0    1    1    0   
 $EndComp
-Text Label 2800 2900 2    60   ~ 0
-GPIO26
-Text Label 4300 1400 2    60   ~ 0
-GPIO19(MISO1)
-Text Label 2800 3700 2    60   ~ 0
-GPIO13
-Text Label 2800 4100 2    60   ~ 0
-GPIO6
 Text Label 2800 4500 2    60   ~ 0
+GPIO26
+Text Label 4300 1300 2    60   ~ 0
+GPIO19(MISO1)
+Text Label 2800 4100 2    60   ~ 0
+GPIO13
+Text Label 2800 3300 2    60   ~ 0
+GPIO6
+Text Label 2800 2900 2    60   ~ 0
 GPIO5
 Text Label 2800 4900 2    60   ~ 0
 GPIO21(SCLK1)
@@ -1580,9 +1580,9 @@ Wire Wire Line
 	8100 5800 8300 5800
 Text Label 3300 6200 2    60   ~ 0
 GPIO25
-Text Label 4300 1300 2    60   ~ 0
+Text Label 4300 1400 2    60   ~ 0
 GPIO16(CE2)
-Text Label 2800 3300 2    60   ~ 0
+Text Label 2800 3700 2    60   ~ 0
 GPIO20(MOSI1)
 Text Label 4100 1600 2    60   ~ 0
 GPIO12
