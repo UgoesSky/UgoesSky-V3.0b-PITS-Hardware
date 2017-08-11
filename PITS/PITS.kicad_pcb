@@ -2,8 +2,8 @@
 
   (general
     (links 214)
-    (no_connects 193)
-    (area 54.924999 48.924999 120.075001 105.075001)
+    (no_connects 184)
+    (area 49.841238 13.491 251.289 118.294001)
     (thickness 1.6)
     (drawings 14)
     (tracks 23)
@@ -212,8 +212,8 @@
   )
 
   (net_class Digital ""
-    (clearance 0.254)
-    (trace_width 0.3556)
+    (clearance 0.2032)
+    (trace_width 0.254)
     (via_dia 0.6096)
     (via_drill 0.3048)
     (uvia_dia 0.3)
