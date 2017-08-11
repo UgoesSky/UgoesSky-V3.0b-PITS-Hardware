@@ -1647,4 +1647,20 @@ Wire Wire Line
 	1800 7500 2500 7500
 Wire Wire Line
 	1800 7300 2500 7300
+Text Label 5400 6000 0    30   ~ 0
+MTX2-TXD
+Text Label 2500 6100 0    30   ~ 0
+HX1-TXD
+Text Label 1500 2900 0    30   ~ 0
+D1
+Text Label 1500 3300 0    30   ~ 0
+D2
+Text Label 1500 3700 0    30   ~ 0
+D3
+Text Label 1500 4100 0    30   ~ 0
+D4
+Text Label 1500 4500 0    30   ~ 0
+D5
+Text Label 1500 4900 0    30   ~ 0
+D6
 $EndSCHEMATC
