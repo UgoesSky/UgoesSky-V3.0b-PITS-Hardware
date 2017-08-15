@@ -534,8 +534,6 @@ Text Label 7100 1000 2    60   ~ 0
 GPIO9(MISO0)
 Text Label 7100 1100 2    60   ~ 0
 GPIO10(MOSI0)
-Text Label 7000 1300 2    60   ~ 0
-GPIO7(CE1)
 Text Notes 9650 2550 2    100  ~ 20
 LORA/RFM9*
 $Comp
@@ -735,7 +733,7 @@ U 1 1 581C4B0F
 P 800 1000
 F 0 "P2" H 810 1120 50  0000 C CNN
 F 1 "BNC" V 910 940 50  0000 C CNN
-F 2 "Connectors:SMA_Edge_small" H 800 1000 50  0001 C CNN
+F 2 "RF_Modules:MWSL1252" H 800 1000 50  0001 C CNN
 F 3 "" H 800 1000 50  0000 C CNN
 	1    800  1000
 	-1   0    0    -1  
@@ -1485,9 +1483,7 @@ Text Label 4100 1600 2    60   ~ 0
 GPIO12
 Wire Wire Line
 	3500 1600 4100 1600
-Text Label 6900 2000 2    60   ~ 0
-GPIO27
-Text Label 6900 1500 2    60   ~ 0
+Text Label 2800 2900 2    60   ~ 0
 GPIO22
 $Comp
 L BME280 U8
@@ -1569,4 +1565,12 @@ Text Label 2800 3700 2    60   ~ 0
 GPIO12
 Text Label 2800 4100 2    60   ~ 0
 GPIO7(CE1)
+Text Label 7000 1300 2    60   ~ 0
+GPIO8(CE0)
+Text Label 2800 3300 2    60   ~ 0
+GPIO24
+Text Label 6900 2000 2    60   ~ 0
+GPIO25
+Text Label 6900 1500 2    60   ~ 0
+GPIO23
 $EndSCHEMATC
