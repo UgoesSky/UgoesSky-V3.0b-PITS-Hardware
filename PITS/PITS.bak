@@ -1527,4 +1527,16 @@ Text Label 6900 2000 2    60   ~ 0
 GPIO8(CE0)
 Text Label 7000 1300 2    60   ~ 0
 GPIO7(CE1)
+Text Label 2800 2900 2    60   ~ 0
+GPIO23
+Text Label 2800 3300 2    60   ~ 0
+GPIO24
+Text Label 2800 3700 2    60   ~ 0
+GPIO25
+Text Label 3300 6200 2    60   ~ 0
+GPIO22
+Text Label 3300 6100 2    60   ~ 0
+GPIO13
+Text Label 6800 6000 2    60   ~ 0
+GPIO14(TXD0)
 $EndSCHEMATC

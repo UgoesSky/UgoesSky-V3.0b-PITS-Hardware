@@ -1539,4 +1539,10 @@ Text Label 3300 6100 2    60   ~ 0
 GPIO13
 Text Label 6800 6000 2    60   ~ 0
 GPIO14(TXD0)
+Text Label 2800 4500 2    60   ~ 0
+GPIO5
+Text Label 2800 4900 2    60   ~ 0
+GPIO6
+Text Label 2800 4100 2    60   ~ 0
+GPIO12
 $EndSCHEMATC
