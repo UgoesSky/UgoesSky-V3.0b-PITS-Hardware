@@ -70,11 +70,11 @@ F 3 "" H 9300 3200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9500 3100 9800 3100
+	9500 3100 10000 3100
 Wire Wire Line
 	9800 3000 9800 3400
 Wire Wire Line
-	9100 3100 8800 3100
+	8600 3100 9100 3100
 Wire Wire Line
 	8800 3000 8800 3400
 Wire Wire Line
@@ -231,4 +231,8 @@ Wire Wire Line
 	6800 3400 6800 3600
 Wire Wire Line
 	6200 3000 6200 3100
+Text GLabel 8600 3100 0    60   Input ~ 0
+I_pos
+Text GLabel 10000 3100 2    60   Input ~ 0
+I_neg
 $EndSCHEMATC

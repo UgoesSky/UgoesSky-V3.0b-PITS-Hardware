@@ -423,67 +423,10 @@ F 3 "" H 8500 2900 50  0000 C CNN
 	1    8500 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C4
-U 1 1 581A7817
-P 7500 4550
-F 0 "C4" H 7525 4650 50  0000 L CNN
-F 1 "100n" H 7525 4450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7538 4400 50  0001 C CNN
-F 3 "" H 7500 4550 50  0000 C CNN
-	1    7500 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 581A781E
-P 7100 4550
-F 0 "C2" H 7125 4650 50  0000 L CNN
-F 1 "100n" H 7125 4450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 4400 50  0001 C CNN
-F 3 "" H 7100 4550 50  0000 C CNN
-	1    7100 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R12
-U 1 1 581A7825
-P 6800 4550
-F 0 "R12" V 6880 4550 50  0000 C CNN
-F 1 "10k" V 6800 4550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6730 4550 50  0001 C CNN
-F 3 "" H 6800 4550 50  0000 C CNN
-	1    6800 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R13
-U 1 1 581A782C
-P 6550 3900
-F 0 "R13" V 6630 3900 50  0000 C CNN
-F 1 "10k" V 6550 3900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6480 3900 50  0001 C CNN
-F 3 "" H 6550 3900 50  0000 C CNN
-	1    6550 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L +BATT #PWR014
-U 1 1 581ACF9B
-P 6200 3700
-F 0 "#PWR014" H 6200 3550 50  0001 C CNN
-F 1 "+BATT" H 6200 3840 50  0000 C CNN
-F 2 "" H 6200 3700 50  0000 C CNN
-F 3 "" H 6200 3700 50  0000 C CNN
-	1    6200 3700
-	1    0    0    -1  
-$EndComp
 Text Notes 9850 5050 2    100  ~ 20
 ADC
 Text Notes 5850 5150 2    100  ~ 20
 GPIO
-Text GLabel 6400 4300 0    60   Input ~ 0
-Iout
 $Comp
 L RFM9* U4
 U 1 1 581B5A2A
@@ -898,45 +841,9 @@ Wire Wire Line
 	8500 2900 8500 3600
 Connection ~ 8500 3000
 Wire Wire Line
-	7900 4400 7800 4400
-Wire Wire Line
-	7800 4000 7800 4800
-Wire Wire Line
-	6800 4800 8500 4800
-Connection ~ 8500 4800
-Wire Wire Line
-	7900 4000 7800 4000
-Connection ~ 7800 4400
-Wire Wire Line
-	7500 4300 7500 4400
-Wire Wire Line
-	7500 4700 7500 4800
-Connection ~ 7800 4800
-Wire Wire Line
-	6700 3900 7900 3900
-Wire Wire Line
-	7100 4400 7100 3900
-Connection ~ 7100 3900
-Wire Wire Line
-	6800 4400 6800 3900
-Connection ~ 6800 3900
-Wire Wire Line
-	6800 4700 6800 4800
-Connection ~ 7500 4800
-Wire Wire Line
-	7100 4700 7100 4800
-Connection ~ 7100 4800
-Wire Wire Line
 	9100 4200 9800 4200
 Wire Wire Line
 	9100 4100 9800 4100
-Connection ~ 7500 4300
-Wire Wire Line
-	6200 3900 6400 3900
-Wire Wire Line
-	6200 3700 6200 3900
-Wire Wire Line
-	6400 4300 7900 4300
 Wire Wire Line
 	5100 2000 4900 2000
 Wire Wire Line
@@ -1539,4 +1446,54 @@ Text Label 3300 6100 2    60   ~ 0
 GPIO13
 Text Label 6800 6000 2    60   ~ 0
 GPIO14(TXD0)
+Text Label 2800 4500 2    60   ~ 0
+GPIO5
+Text Label 2800 4900 2    60   ~ 0
+GPIO6
+Text Label 2800 4100 2    60   ~ 0
+GPIO12
+$Comp
+L C_Small C2
+U 1 1 599B83CE
+P 7600 3900
+F 0 "C2" H 7610 3970 50  0000 L CNN
+F 1 "100n" H 7610 3820 50  0000 L CNN
+F 2 "" H 7600 3900 50  0000 C CNN
+F 3 "" H 7600 3900 50  0000 C CNN
+	1    7600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4000 7900 4000
+Wire Wire Line
+	7900 3900 7800 3900
+Wire Wire Line
+	7800 3900 7800 3800
+$Comp
+L CONN_01X02 P?
+U 1 1 599B924F
+P 7100 3950
+F 0 "P?" H 7100 4100 50  0000 C CNN
+F 1 "Batt" V 7200 3950 50  0000 C CNN
+F 2 "" H 7100 3950 50  0000 C CNN
+F 3 "" H 7100 3950 50  0000 C CNN
+	1    7100 3950
+	-1   0    0    -1  
+$EndComp
+Connection ~ 7600 4000
+Wire Wire Line
+	7300 3900 7400 3900
+Wire Wire Line
+	7400 3900 7400 3800
+Wire Wire Line
+	7400 3800 7800 3800
+Connection ~ 7600 3800
+Text GLabel 7700 4300 0    50   Input ~ 0
+I_pos
+Text GLabel 7700 4400 0    50   Input ~ 0
+I_neg
+Wire Wire Line
+	7700 4300 7900 4300
+Wire Wire Line
+	7700 4400 7900 4400
 $EndSCHEMATC
