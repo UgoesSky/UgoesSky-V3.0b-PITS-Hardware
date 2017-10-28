@@ -1,4 +1,4 @@
-update=Mi 09 Aug 2017 18:00:19 CEST
+update=Sa 28 Okt 2017 21:39:40 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,7 +64,7 @@ LibName32=ublox
 LibName33=bosch
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=page_layout.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
