@@ -1348,4 +1348,6 @@ Connection ~ 2000 1700
 Wire Wire Line
 	2000 2050 2000 2500
 Connection ~ 2000 1800
+Text Notes 1000 1900 0    60   Italic 0
+L1 & R1:\nOnly necessary\nfor active Antenna
 $EndSCHEMATC
