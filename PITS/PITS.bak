@@ -650,12 +650,12 @@ $EndComp
 $Comp
 L C_Small C14
 U 1 1 581C4845
-P 2000 1800
-F 0 "C14" H 2010 1870 50  0000 L CNN
-F 1 "100n" H 2010 1720 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 1800 50  0001 C CNN
-F 3 "" H 2000 1800 50  0000 C CNN
-	1    2000 1800
+P 2000 1950
+F 0 "C14" H 2010 2020 50  0000 L CNN
+F 1 "100n" H 2010 1870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2000 1950 50  0001 C CNN
+F 3 "" H 2000 1950 50  0000 C CNN
+	1    2000 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1104,20 +1104,16 @@ Connection ~ 2000 1600
 Wire Wire Line
 	2200 1600 2000 1600
 Wire Wire Line
-	2000 900  2000 1700
+	2000 900  2000 1850
 Wire Wire Line
 	2000 1700 2200 1700
 Connection ~ 2000 2100
-Wire Wire Line
-	2200 1900 2000 1900
 Connection ~ 2000 2200
 Wire Wire Line
 	2000 2200 2200 2200
 Connection ~ 2000 2300
 Wire Wire Line
 	2200 2100 2000 2100
-Wire Wire Line
-	2000 1900 2000 2500
 Wire Wire Line
 	900  2300 2200 2300
 Wire Wire Line
@@ -1346,4 +1342,10 @@ Wire Notes Line
 	6000 6700 6000 5700
 Text Notes 8050 6650 2    100  ~ 20
 BME280
+Wire Wire Line
+	2000 1800 2200 1800
+Connection ~ 2000 1700
+Wire Wire Line
+	2000 2050 2000 2500
+Connection ~ 2000 1800
 $EndSCHEMATC
