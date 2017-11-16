@@ -894,9 +894,9 @@ F 3 "" H 6700 4650 50  0000 C CNN
 	1    6700 4650
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7300 4300 0    50   Input ~ 0
-I_pos
 Text GLabel 7300 4200 0    50   Input ~ 0
+I_pos
+Text GLabel 7300 4300 0    50   Input ~ 0
 I_neg
 $Comp
 L CONN_01X05 P7
