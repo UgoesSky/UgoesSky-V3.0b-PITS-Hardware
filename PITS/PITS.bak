@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "UgoesSky-V3.0b-PITS"
-Date "2017-10-28"
-Rev ""
+Date "2017-11-16"
+Rev "B"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""
