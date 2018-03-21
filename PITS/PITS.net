@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jonas/UgoesSky/UgoesSky-V3.0b-PITS-Hardware/PITS/PITS.sch)
-    (date "Mo 29 Jan 2018 20:38:44 CET")
+    (date "Mo 29 Jan 2018 21:10:36 CET")
     (tool "Eeschema 4.0.5-e0-6337~49~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -226,7 +226,7 @@
       (tstamp 585C19A3))
     (comp (ref P7)
       (value SENSOR)
-      (footprint Connectors:SMD_5_xsmall)
+      (footprint Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm)
       (libsource (lib conn) (part CONN_01X05))
       (sheetpath (names /) (tstamps /))
       (tstamp 59A1C9F2))
