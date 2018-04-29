@@ -1358,4 +1358,6 @@ Connection ~ 8100 5100
 Wire Wire Line
 	8500 5100 8800 5100
 Connection ~ 8800 5100
+Text Label 10900 1600 2    60   ~ 0
+GPIO6
 $EndSCHEMATC

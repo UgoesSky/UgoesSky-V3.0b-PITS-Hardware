@@ -727,7 +727,7 @@ U 1 1 581F2693
 P 8900 6250
 F 0 "P14" H 8900 6400 50  0000 C CNN
 F 1 "BATT" V 9000 6250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 8900 6250 50  0001 C CNN
+F 2 "Connectors:SMD_2_xsmall" H 8900 6250 50  0001 C CNN
 F 3 "" H 8900 6250 50  0000 C CNN
 	1    8900 6250
 	1    0    0    -1  
@@ -845,7 +845,7 @@ U 1 1 59A1C9F2
 P 5600 6700
 F 0 "P7" H 5600 7000 50  0000 C CNN
 F 1 "SENSOR" V 5700 6700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 5600 6700 50  0001 C CNN
+F 2 "Connectors:SMD_5_xsmall" H 5600 6700 50  0001 C CNN
 F 3 "" H 5600 6700 50  0000 C CNN
 	1    5600 6700
 	1    0    0    -1  
@@ -1303,7 +1303,7 @@ U 1 1 599B924F
 P 6700 5050
 F 0 "P6" H 6700 5200 50  0000 C CNN
 F 1 "Batt" V 6800 5050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 6700 5050 50  0001 C CNN
+F 2 "Connectors:SMD_2_xsmall" H 6700 5050 50  0001 C CNN
 F 3 "" H 6700 5050 50  0000 C CNN
 	1    6700 5050
 	-1   0    0    -1  
