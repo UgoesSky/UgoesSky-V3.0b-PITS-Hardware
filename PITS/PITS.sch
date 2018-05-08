@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "UgoesSky-V3.0b-PITS"
-Date "2017-11-16"
-Rev "B"
+Date "2018-05-08"
+Rev "C"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""
@@ -749,7 +749,7 @@ U 1 1 585C19A3
 P 6800 6200
 F 0 "M1" H 6800 6450 60  0000 C CNN
 F 1 "BME280" H 6800 5950 60  0000 C CNN
-F 2 "RF_Modules:BME280_edit" H 6800 5900 60  0001 C CNN
+F 2 "" H 6800 5900 60  0001 C CNN
 F 3 "" H 6800 5900 60  0001 C CNN
 	1    6800 6200
 	1    0    0    -1  

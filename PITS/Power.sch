@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "UgoesSky-V3.0b-PITS"
-Date "2017-11-16"
-Rev "B"
+Date "2018-05-08"
+Rev "C"
 Comp "Jonas Gappert"
 Comment1 ""
 Comment2 ""
@@ -194,7 +194,7 @@ U 1 1 598E0500
 P 4400 3250
 F 0 "M2" H 4200 3450 50  0000 C CNN
 F 1 "TPS61030" H 4400 3450 50  0000 L CNN
-F 2 "power:TPS61030" H 4400 3350 50  0001 C CIN
+F 2 "" H 4400 3350 50  0001 C CIN
 F 3 "" H 4400 3250 50  0000 C CNN
 	1    4400 3250
 	1    0    0    -1  
