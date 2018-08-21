@@ -31,3 +31,5 @@
 30;"P6";"SMD_2_xsmall";1;"Batt";;;
 31;"P5";"SMD_5_xsmall";1;"SENSOR";;;
 32;"P8";"SMD_2_xsmall";1;"5V";;;
+33;"REF**";"Bohrung_3mm";1;"Bohrung_3mm";;;
+34;"REF**,REF**";"Bohrung_2mm";2;"Bohrung_2mm";;;
